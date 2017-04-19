@@ -18,3 +18,4 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 # Resources
 
 * [Mapping between API Levels and commercial Android OS Versions](https://source.android.com/source/build-numbers)
+* [Android OS platform distribution dashboard (maintained by Google)](https://developer.android.com/about/dashboards/index.html)
