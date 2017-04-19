@@ -10,6 +10,7 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 # minSdkVersion 19 (4.4 - 4.4.4) KitKat
 
 * [`ObjectAnimator.pause` support](http://stackoverflow.com/questions/25231707/how-to-resume-and-pause-objectanimator-in-android-for-api-levels-below-19)
+* Ability to use emmersive mode : SYSTEM_UI_FLAG_IMMERSIVE -> Android 4.4 comes with a new immersive mode that hides status bar and     navigation bar in your app. Basically it hides everything from screen except your app.
 
 # minSdkVersion 17 (4.2.x) Jelly Bean
 
