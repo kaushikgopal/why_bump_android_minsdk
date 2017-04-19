@@ -15,12 +15,13 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 # minSdkVersion 19 (4.4 - 4.4.4) KitKat
 
 * [`ObjectAnimator.pause` support](http://stackoverflow.com/questions/25231707/how-to-resume-and-pause-objectanimator-in-android-for-api-levels-below-19)
+* Ability to use immersive mode : SYSTEM_UI_FLAG_IMMERSIVE (Android 4.4 comes with a new immersive mode that hides status bar and navigation bar in your app. Basically it hides everything from screen except your app).
 
 # minSdkVersion 18 (4.3.x) Jelly Bean
 
 * [Bluetooth LTE energy is introduced](https://developer.android.com/guide/topics/connectivity/bluetooth-le.html)
 
-# minSdkVersion 17 (4.2.x) Jelly Bean
+# minSdkVersion 17 (4.2.x) Jelly Bean MR1
 
 * Only need to use start/end layout attributes (vs also adding left/right respectively)
 * Native nested Fragments support (available through Support lib already)
@@ -29,6 +30,10 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 # minSdkVersion 14 (4.0.1 - 4.0.2) Ice Cream Sandwich
 
 * Holo theme introduced
+
+# minSdkVersion 16 (4.1.x) Jelly Bean
+
+* Ability to use nested fragment ( not recommended in standard conditions) : You might be having to use a viewpager inside a fragment or other similar cases.
 
 # Resources
 
