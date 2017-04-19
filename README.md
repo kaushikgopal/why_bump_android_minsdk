@@ -19,7 +19,7 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 
 # minSdkVersion 18 (4.3.x) Jelly Bean
 
-* [Bluetooth LTE energy is introduced](https://developer.android.com/guide/topics/connectivity/bluetooth-le.html)
+* [Bluetooth Low Energy (BLE) is introduced](https://developer.android.com/guide/topics/connectivity/bluetooth-le.html)
 
 # minSdkVersion 17 (4.2.x) Jelly Bean MR1
 
