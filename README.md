@@ -32,3 +32,4 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 
 * [Mapping between API Levels and commercial Android OS Versions](https://source.android.com/source/build-numbers)
 * [Android OS platform distribution dashboard (maintained by Google)](https://developer.android.com/about/dashboards/index.html)
+* [Wikipedia Android version history by API level](https://en.wikipedia.org/wiki/Android_version_history#Version_history_by_API_level) (has a pretty detailed feature list)
