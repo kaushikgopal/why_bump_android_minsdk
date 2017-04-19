@@ -27,13 +27,13 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 * Native nested Fragments support (available through Support lib already)
 * Samsung __bug__ with RTL (you need to have some padding on everything, otherwise Samsung will blow up cause they overrode or had their own version of rtl before Android had it built in?). Listen to [this Fragmented episode with Dan Lew](fragmentedpodcast.com/episodes/049) where he talks about it.
 
-# minSdkVersion 14 (4.0.1 - 4.0.2) Ice Cream Sandwich
-
-* Holo theme introduced
-
 # minSdkVersion 16 (4.1.x) Jelly Bean
 
 * Ability to use nested fragment ( not recommended in standard conditions) : You might be having to use a viewpager inside a fragment or other similar cases.
+
+# minSdkVersion 14 (4.0.1 - 4.0.2) Ice Cream Sandwich
+
+* Holo theme introduced
 
 # Resources
 
