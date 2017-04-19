@@ -7,7 +7,7 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 
 # minSdkVersion 21 (5.0) Lollipop
 
-* [Material design Theme introduced](https://developer.android.com/training/material/theme.html)
+* [Material design theme introduced](https://developer.android.com/training/material/theme.html)
 * [native `JobScheduler` use](https://developer.android.com/reference/android/app/job/JobScheduler.html) (i.e. if you'd rather not use [Firebase JobDispatcher](https://github.com/firebase/firebase-jobdispatcher-android))
 
 # minSdkVersion 19 (4.4 - 4.4.4) KitKat
@@ -21,7 +21,12 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 # minSdkVersion 17 (4.2.x) Jelly Bean
 
 * Only need to use start/end layout attributes (vs also adding left/right respectively)
+* Native nested Fragments support (available through Support lib already)
 * Samsung __bug__ with RTL (you need to have some padding on everything, otherwise Samsung will blow up cause they overrode or had their own version of rtl before Android had it built in?). Listen to [this Fragmented episode with Dan Lew](fragmentedpodcast.com/episodes/049) where he talks about it.
+
+# minSdkVersion 14 (4.0.1 - 4.0.2) Ice Cream Sandwich
+
+* Holo theme introduced
 
 # Resources
 
