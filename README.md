@@ -5,6 +5,11 @@ Please feel free to generously contribute PRs to this project.
 This is a list of feature you get by bumping your minSdk (and more importantly a bunch of problems you avoid):
 
 
+# minSdkVersion 24 (7.0) Nougat
+
+* [MultiWindow Support](https://developer.android.com/guide/topics/ui/multi-window.html)
+* [Java 8 Support](https://developer.android.com/guide/topics/ui/multi-window.html) (Ability to use lambda expression, default and static interfaces, method references and other java 8 features.)
+
 # minSdkVersion 21 (5.0) Lollipop
 
 * [Material design theme introduced](https://developer.android.com/training/material/theme.html)
@@ -26,7 +31,6 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 # minSdkVersion 17 (4.2.x) Jelly Bean MR1
 
 * Only need to use start/end layout attributes (vs also adding left/right respectively)
-* Native nested Fragments support (available through Support lib already)
 * Samsung __bug__ with RTL (you need to have some padding on everything, otherwise Samsung will blow up cause they overrode or had their own version of rtl before Android had it built in?). Listen to [this Fragmented episode with Dan Lew](fragmentedpodcast.com/episodes/049) where he talks about it.
 
 # minSdkVersion 16 (4.1.x) Jelly Bean
