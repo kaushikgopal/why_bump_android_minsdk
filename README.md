@@ -5,6 +5,11 @@ Please feel free to generously contribute PRs to this project.
 This is a list of feature you get by bumping your minSdk (and more importantly a bunch of problems you avoid):
 
 
+# minSdkVersion 24 (7.0) Nougat
+
+* [Multi-Window Support](https://developer.android.com/guide/topics/ui/multi-window.html)
+* [Java 8 language features and API](https://developer.android.com/studio/preview/features/java8-support.html) (Note: some of the known and loved features like Lambdas and Method references are already available via Android Studio. However certain other features like Streams, functions, FunctionalInterface etc. are only available from 24. See [linked doc](https://developer.android.com/studio/preview/features/java8-support.html) for details).
+
 # minSdkVersion 21 (5.0) Lollipop
 
 * [Material design theme introduced](https://developer.android.com/training/material/theme.html)
@@ -26,12 +31,11 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 # minSdkVersion 17 (4.2.x) Jelly Bean MR1
 
 * Only need to use start/end layout attributes (vs also adding left/right respectively)
-* Native nested Fragments support (available through Support lib already)
 * Samsung __bug__ with RTL (you need to have some padding on everything, otherwise Samsung will blow up cause they overrode or had their own version of rtl before Android had it built in?). Listen to [this Fragmented episode with Dan Lew](fragmentedpodcast.com/episodes/049) where he talks about it.
+* Native [Nested Fragments](https://developer.android.com/about/versions/android-4.2.html#NestedFragments) (common usecase: ViewPager used inside a fragment, and the ViewPager itself is provided child Fragments for screen) [exists in support lib].
 
 # minSdkVersion 16 (4.1.x) Jelly Bean
 
-* Ability to use nested fragment ( not recommended in standard conditions) : You might be having to use a viewpager inside a fragment or other similar cases.
 
 # minSdkVersion 14 (4.0.1 - 4.0.2) Ice Cream Sandwich
 
