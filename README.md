@@ -5,6 +5,10 @@ Please feel free to generously contribute PRs to this project.
 This is a list of feature you get by bumping your minSdk (and more importantly a bunch of problems you avoid):
 
 
+# minSdkVersion 24 (7.0) Nougat
+
+* [MultiWindow Support](https://developer.android.com/guide/topics/ui/multi-window.html)
+
 # minSdkVersion 21 (5.0) Lollipop
 
 * [Material design theme introduced](https://developer.android.com/training/material/theme.html)
