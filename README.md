@@ -8,6 +8,7 @@ This is a list of feature you get by bumping your minSdk (and more importantly a
 # minSdkVersion 24 (7.0) Nougat
 
 * [MultiWindow Support](https://developer.android.com/guide/topics/ui/multi-window.html)
+* [Java 8 Support](https://developer.android.com/guide/topics/ui/multi-window.html) (Ability to use lambda expression, default and static interfaces, method references and other java 8 features.)
 
 # minSdkVersion 21 (5.0) Lollipop
 
