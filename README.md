@@ -43,8 +43,9 @@ There are programmer facing features like language features (Lambdas, method ref
 ![api 19 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_19_k.png "API 19 features")
 
 * Chromium based WebView, which is still a WebView..., but far less horrible, fragmented and vulnerable compared to the WebViews before 4.4.
-* "Lossless" WebP support. [Actually lossless was made available in API 18 but when those in the know were asked for suggested minSdk (for WebP), they suggested 19](https://twitter.com/Eric_Cochran/status/855446820708679680).
+* "Lossless" WebP support. Actually [lossless was made available in API 18](https://developer.android.com/studio/write/convert-webp.html) but [when those in the know were asked for suggested minSdk (for WebP), they suggested 19](https://twitter.com/Eric_Cochran/status/855446820708679680).
 * Java 7 [try-with-resources](https://issuetracker.google.com/issues/36999599#comment3)
+
 
 # minSdkVersion 18 (4.3.x) Jelly Bean
 
