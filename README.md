@@ -33,7 +33,6 @@ There are programmer facing features like language features (Lambdas, method ref
 
 ![api 21 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_21_l.png "API 21 features")
 
-* [Material design theme introduced](https://developer.android.com/training/material/theme.html)
 * [Native support for elevation & view clipping](https://developer.android.com/training/material/shadows-clipping.html)
 * [Native `VectorDrawable` and `AnimatedVectorDrawable` support](https://developer.android.com/guide/topics/graphics/vector-drawable-resources.html) (none of the ugly workarounds required if you use the native version. [Read this post](https://medium.com/@chrisbanes/appcompat-v23-2-age-of-the-vectors-91cbafa87c88)).
 * [Native `JobScheduler` use](https://developer.android.com/reference/android/app/job/JobScheduler.html) (i.e. if you'd rather not use [Firebase JobDispatcher](https://github.com/firebase/firebase-jobdispatcher-android))
@@ -43,24 +42,20 @@ There are programmer facing features like language features (Lambdas, method ref
 
 ![api 19 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_19_k.png "API 19 features")
 
-* [`ObjectAnimator.pause` support](http://stackoverflow.com/questions/25231707/how-to-resume-and-pause-objectanimator-in-android-for-api-levels-below-19)
-* Ability to use immersive mode : SYSTEM_UI_FLAG_IMMERSIVE (Android 4.4 comes with a new immersive mode that hides status bar and navigation bar in your app. Basically it hides everything from screen except your app).
 * Chromium based WebView, which is still a WebView..., but far less horrible, fragmented and vulnerable compared to the WebViews before 4.4.
+* "Lossless" WebP support. [Actually lossless was made available in API 18 but when those in the know were asked for suggested minSdk (for WebP), they suggested 19](https://twitter.com/Eric_Cochran/status/855446820708679680).
 * Java 7 [try-with-resources](https://issuetracker.google.com/issues/36999599#comment3)
 
 # minSdkVersion 18 (4.3.x) Jelly Bean
 
 ![api 18 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_18_j.png "API 18 features")
 
-* [Bluetooth Low Energy (BLE) is introduced](https://developer.android.com/guide/topics/connectivity/bluetooth-le.html)
-
 # minSdkVersion 17 (4.2.x) Jelly Bean MR1
 
 ![api 17 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_17_j.png "API 17 features")
 
-* Only need to use start/end layout attributes (vs also adding left/right respectively)
 * Samsung __bug__ with RTL (you need to have some padding on everything, otherwise Samsung will blow up cause they overrode or had their own version of rtl before Android had it built in?). Listen to [this Fragmented episode with Dan Lew](fragmentedpodcast.com/episodes/049) where he talks about it.
-* Native [Nested Fragments](https://developer.android.com/about/versions/android-4.2.html#NestedFragments) (common usecase: ViewPager used inside a fragment, and the ViewPager itself is provided child Fragments for screen) [exists in support lib].
+* [WebP support](https://developer.android.com/guide/topics/media/media-formats.html) (but not lossless, see note in API 19)
 
 # minSdkVersion 16 (4.1.x) Jelly Bean
 
