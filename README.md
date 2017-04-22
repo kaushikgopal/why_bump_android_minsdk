@@ -62,6 +62,8 @@ There are programmer facing features like language features (Lambdas, method ref
 
 ![api 16 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_16_j.png "API 16 features")
 
+* Sony has a `setPaddingRelative` that [can cause a stackoverflow error](https://twitter.com/seebrock3r/status/855735534223855616).
+
 # minSdkVersion 14 (4.0.1 - 4.0.2) Ice Cream Sandwich
 
 * Holo theme introduced
