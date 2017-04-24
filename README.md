@@ -16,6 +16,10 @@ __Features that are not user facing:__
 
 There are programmer facing features like language features (Lambdas, method references, try with resources) that are hugely critical for developers. These are usually not called out in that new Android Studio project creator listing. If you know of these and want to make the lives of other AndroidDev better, send a PR!
 
+# minSdkVersion 25 (7.1) Nougat
+
+* [App shortcuts](https://developer.android.com/guide/topics/ui/shortcuts.html)
+
 # minSdkVersion 24 (7.0) Nougat
 
 * [Multi-Window Support](https://developer.android.com/guide/topics/ui/multi-window.html)
@@ -24,6 +28,11 @@ There are programmer facing features like language features (Lambdas, method ref
 # minSdkVersion 23 (6.0) Marshmallow
 
 ![api 23 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_23_m.png "API 23 features")
+
+* [Runtime permissions](https://developer.android.com/training/permissions/requesting.html)
+* [Floating toolbar for action Mode & text selection](https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-text-selection)
+* [Doze](https://developer.android.com/training/monitoring-device-state/doze-standby.html)
+* [Fingerprint authentication APIs](https://developer.android.com/about/versions/marshmallow/android-6.0.html#fingerprint-authentication)
 
 # minSdkVersion 22 (5.1) Lollipop
 
@@ -37,6 +46,8 @@ There are programmer facing features like language features (Lambdas, method ref
 * [Native `VectorDrawable` and `AnimatedVectorDrawable` support](https://developer.android.com/guide/topics/graphics/vector-drawable-resources.html) (none of the ugly workarounds required if you use the native version. [Read this post](https://medium.com/@chrisbanes/appcompat-v23-2-age-of-the-vectors-91cbafa87c88)).
 * [Native `JobScheduler` use](https://developer.android.com/reference/android/app/job/JobScheduler.html) (i.e. if you'd rather not use [Firebase JobDispatcher](https://github.com/firebase/firebase-jobdispatcher-android))
 * [Optimized multidex in dev builds](https://developer.android.com/studio/build/multidex.html#dev-build) (Faster build times)
+* [Enhanced camera & video APIs with Raw support](https://developer.android.com/about/versions/lollipop.html#Camera)
+* [Screen capturing and sharing](https://developer.android.com/about/versions/lollipop.html#ScreenCapture)
 
 # minSdkVersion 19 (4.4 - 4.4.4) KitKat
 
