@@ -24,6 +24,9 @@ There are programmer facing features like language features (Lambdas, method ref
 # minSdkVersion 23 (6.0) Marshmallow
 
 ![api 23 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_23_m.png "API 23 features")
+* Removes Apache HTTP client. Compulsory to use (HttpURLConnection)[https://developer.android.com/reference/java/net/HttpURLConnection.html] class for API calls.
+* [Runtime permission](https://developer.android.com/training/permissions/requesting.html).
+* Removes programmatic access to the device’s local hardware identifier like MAC or Bluetooth address.(From now onwards [WifiInfo.getMacAddress()](https://developer.android.com/reference/android/net/wifi/WifiInfo.html#getMacAddress()) and the [BluetoothAdapter.getAddress()](https://developer.android.com/reference/android/bluetooth/BluetoothAdapter.html#getAddress()) methods will return a constant value of `02:00:00:00:00:00`.)
 
 # minSdkVersion 22 (5.1) Lollipop
 
@@ -37,6 +40,9 @@ There are programmer facing features like language features (Lambdas, method ref
 * [Native `VectorDrawable` and `AnimatedVectorDrawable` support](https://developer.android.com/guide/topics/graphics/vector-drawable-resources.html) (none of the ugly workarounds required if you use the native version. [Read this post](https://medium.com/@chrisbanes/appcompat-v23-2-age-of-the-vectors-91cbafa87c88)).
 * [Native `JobScheduler` use](https://developer.android.com/reference/android/app/job/JobScheduler.html) (i.e. if you'd rather not use [Firebase JobDispatcher](https://github.com/firebase/firebase-jobdispatcher-android))
 * [Optimized multidex in dev builds](https://developer.android.com/studio/build/multidex.html#dev-build) (Faster build times)
+* ART runtime support.
+* 64-bit NDK support.
+* Introduced [Camera2](https://developer.android.com/reference/android/hardware/camera2/package-summary.html) API.
 
 # minSdkVersion 19 (4.4 - 4.4.4) KitKat
 
@@ -67,6 +73,7 @@ There are programmer facing features like language features (Lambdas, method ref
 # minSdkVersion 14 (4.0.1 - 4.0.2) Ice Cream Sandwich
 
 * Holo theme introduced
+* USB On-The-Go support.
 
 # minSdkVersion < 14
 
