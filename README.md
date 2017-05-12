@@ -75,6 +75,7 @@ There are programmer facing features like language features (Lambdas, method ref
 
 * Samsung __bug__ with RTL (you need to have some padding on everything, otherwise Samsung will blow up cause they overrode or had their own version of rtl before Android had it built in?). Listen to [this Fragmented episode with Dan Lew](fragmentedpodcast.com/episodes/049) where he talks about it.
 * [WebP support](https://developer.android.com/guide/topics/media/media-formats.html) (but not lossless, see note in API 19)
+* `Location` objects send back [elapsed realtime nanoseconds](https://developer.android.com/reference/android/location/Location.html#getElapsedRealtimeNanos()) (this is important for getting the "age" of the location fix)
 
 # minSdkVersion 16 (4.1.x) Jelly Bean
 
