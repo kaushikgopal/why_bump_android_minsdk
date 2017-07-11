@@ -45,6 +45,7 @@ There are programmer facing features like language features (Lambdas, method ref
 
 ![api 21 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_21_l.png "API 21 features")
 
+* [TLS 1.2 support enabled](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)
 * ART runtime support
 * 64-bit NDK support
 * [Optimized multidex in dev builds](https://developer.android.com/studio/build/multidex.html#dev-build) (Faster build times)
