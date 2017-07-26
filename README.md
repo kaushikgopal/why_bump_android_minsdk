@@ -29,10 +29,9 @@ There are programmer facing features like language features (Lambdas, method ref
 
 ![api 23 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_23_m.png "API 23 features")
 * Removes Apache HTTP client. Compulsory to use [HttpURLConnection](https://developer.android.com/reference/java/net/HttpURLConnection.html) class for API calls.
-* [Runtime permission](https://developer.android.com/training/permissions/requesting.html).
+* [Runtime permissions](https://developer.android.com/training/permissions/requesting.html).
 * Removes programmatic access to the device’s local hardware identifier like MAC or Bluetooth address.(From now onwards [WifiInfo.getMacAddress()](https://developer.android.com/reference/android/net/wifi/WifiInfo.html#getMacAddress()) and the [BluetoothAdapter.getAddress()](https://developer.android.com/reference/android/bluetooth/BluetoothAdapter.html#getAddress()) methods will return a constant value of `02:00:00:00:00:00`.)
 
-* [Runtime permissions](https://developer.android.com/training/permissions/requesting.html)
 * [Floating toolbar for action Mode & text selection](https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-text-selection)
 * [Doze](https://developer.android.com/training/monitoring-device-state/doze-standby.html)
 * [Fingerprint authentication APIs](https://developer.android.com/about/versions/marshmallow/android-6.0.html#fingerprint-authentication)
