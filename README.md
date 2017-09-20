@@ -27,7 +27,7 @@ There are programmer facing features like language features (Lambdas, method ref
 
 # minSdkVersion 23 (6.0) Marshmallow
 
-![api 23 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_23_m.png "API 23 features")
+![api 23 features](img/api_23_m.png "API 23 features")
 * Removes Apache HTTP client. Compulsory to use [HttpURLConnection](https://developer.android.com/reference/java/net/HttpURLConnection.html) class for API calls.
 * [Runtime permission](https://developer.android.com/training/permissions/requesting.html).
 * Removes programmatic access to the device’s local hardware identifier like MAC or Bluetooth address.(From now onwards [WifiInfo.getMacAddress()](https://developer.android.com/reference/android/net/wifi/WifiInfo.html#getMacAddress()) and the [BluetoothAdapter.getAddress()](https://developer.android.com/reference/android/bluetooth/BluetoothAdapter.html#getAddress()) methods will return a constant value of `02:00:00:00:00:00`.)
@@ -39,11 +39,11 @@ There are programmer facing features like language features (Lambdas, method ref
 
 # minSdkVersion 22 (5.1) Lollipop
 
-![api 22 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_22_l.png "API 22 features")
+![api 22 features](img/api_22_l.png "API 22 features")
 
 # minSdkVersion 21 (5.0) Lollipop
 
-![api 21 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_21_l.png "API 21 features")
+![api 21 features](img/api_21_l.png "API 21 features")
 
 * [TLS 1.2 support enabled](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)
 * ART runtime support
@@ -59,7 +59,7 @@ There are programmer facing features like language features (Lambdas, method ref
 
 # minSdkVersion 19 (4.4 - 4.4.4) KitKat
 
-![api 19 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_19_k.png "API 19 features")
+![api 19 features](img/api_19_k.png "API 19 features")
 
 * Chromium based WebView, which is still a WebView..., but far less horrible, fragmented and vulnerable compared to the WebViews before 4.4.
 * "Lossless" WebP support. Actually [lossless was made available in API 18](https://developer.android.com/studio/write/convert-webp.html) but [when those in the know were asked for suggested minSdk (for WebP), they suggested 19](https://twitter.com/Eric_Cochran/status/855446820708679680).
@@ -68,11 +68,11 @@ There are programmer facing features like language features (Lambdas, method ref
 
 # minSdkVersion 18 (4.3.x) Jelly Bean
 
-![api 18 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_18_j.png "API 18 features")
+![api 18 features](img/api_18_j.png "API 18 features")
 
 # minSdkVersion 17 (4.2.x) Jelly Bean MR1
 
-![api 17 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_17_j.png "API 17 features")
+![api 17 features](img/api_17_j.png "API 17 features")
 
 * Samsung __bug__ with RTL (you need to have some padding on everything, otherwise Samsung will blow up cause they overrode or had their own version of rtl before Android had it built in?). Listen to [this Fragmented episode with Dan Lew](fragmentedpodcast.com/episodes/049) where he talks about it.
 * [WebP support](https://developer.android.com/guide/topics/media/media-formats.html) (but not lossless, see note in API 19)
@@ -80,7 +80,7 @@ There are programmer facing features like language features (Lambdas, method ref
 
 # minSdkVersion 16 (4.1.x) Jelly Bean
 
-![api 16 features](https://github.com/kaushikgopal/why_bump_android_minsdk/blob/master/api_16_j.png "API 16 features")
+![api 16 features](img/api_16_j.png "API 16 features")
 
 * Sony has a `setPaddingRelative` that [risks a stackoverflow error](https://twitter.com/seebrock3r/status/855735534223855616).
 
