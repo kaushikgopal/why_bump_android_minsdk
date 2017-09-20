@@ -18,10 +18,12 @@ There are programmer facing features like language features (Lambdas, method ref
 
 # minSdkVersion 25 (7.1) Nougat
 
+![api 25 features](img/api_25_n.png "API 25 features")
 * [App shortcuts](https://developer.android.com/guide/topics/ui/shortcuts.html)
 
 # minSdkVersion 24 (7.0) Nougat
 
+![api 24 features](img/api_24_n.png "API 24 features")
 * [Multi-Window Support](https://developer.android.com/guide/topics/ui/multi-window.html)
 * [Java 8 language features and API](https://developer.android.com/studio/preview/features/java8-support.html) (Note: some of the known and loved features like Lambdas and Method references are already available via Android Studio. However certain other features like Streams, functions, FunctionalInterface etc. are only available from 24. See [linked doc](https://developer.android.com/studio/preview/features/java8-support.html) for details).
 
