@@ -56,6 +56,7 @@ There are programmer facing features like language features (Lambdas, method ref
 * Introduced [Camera2](https://developer.android.com/reference/android/hardware/camera2/package-summary.html) API
 * [Screen capturing and sharing](https://developer.android.com/about/versions/lollipop.html#ScreenCapture)
 * [Enhanced camera & video APIs with Raw support](https://developer.android.com/about/versions/lollipop.html#Camera)
+* [Sqlite 3.8](https://developer.android.com/reference/android/database/sqlite/package-summary.html)
 
 # minSdkVersion 19 (4.4 - 4.4.4) KitKat
 
@@ -98,3 +99,4 @@ No, __don't use anything below 14 please__.
 * [Mapping between API Levels and commercial Android OS Versions](https://source.android.com/source/build-numbers)
 * [Android OS platform distribution dashboard (maintained by Google)](https://developer.android.com/about/dashboards/index.html)
 * [Wikipedia Android version history by API level](https://en.wikipedia.org/wiki/Android_version_history#Version_history_by_API_level) (has a pretty detailed feature list)
+* [Sqlite versions included with different APIs](https://developer.android.com/reference/android/database/sqlite/package-summary.html)
